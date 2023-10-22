@@ -48,7 +48,7 @@ public class Test {
 
     public static double saveExpense(Scanner scanner, double moneyBeforeSalary, double[] expenses) {
         
-        // Печать вопросов и считывание ответов оставьте в классе Praktikum
+        // Печать вопросов и считывание ответов оставьте в классе Test
         System.out.println("За какой день вы хотите ввести трату: 1-ПН, 2-ВТ, 3-СР, 4-ЧТ, 5-ПТ, 6-СБ, 7-ВС?");
         int day = scanner.nextInt();
         System.out.println("Введите размер траты:");
